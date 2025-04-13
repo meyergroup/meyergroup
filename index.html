@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meyer Management & Consulting NV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background: #063855;
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .hero {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+    .hero img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 2rem;
+      border-radius: 8px;
+    }
+    .hero-text h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .section {
+      padding: 2rem;
+    }
+    .section h3 {
+      color: #063855;
+      margin-bottom: 1rem;
+    }
+    .services-grid, .challenges-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #f9f9f9;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .card h4 {
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      background: #063855;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+    footer p {
+      margin: 0.5rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Meyer Management & Consulting NV</div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#articles">Articles</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2F%2F667b9f42-e72a-4f26-b712-fb508436706a/watermark:F/width:1200?csig=AAAAAAAAAAAAAAAAAAAAAC18KoWbXxJJTqa4YpO2vGbbkoer7de_063dWkxrdceQ&exp=1744566012&osig=AAAAAAAAAAAAAAAAAAAAALuxnn6Bu_EyX6a554YNdyMpaTtECSM5ro2GkWnEOXEf&signer=media-rpc&x-canva-quality=screen_2x" alt="Business in Suriname">
+    <div class="hero-text">
+      <h2>A One-Stop Solution for Businesses Expanding into Suriname</h2>
+      <p>Overcome the challenges of setting up and running a business in Suriname with our expert, end-to-end solutions.</p>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <h3>Our Services</h3>
+    <div class="services-grid">
+      <div class="card">
+        <h4>Market Entry & Compliance</h4>
+        <p>Full legal, tax, and compliance services to establish a strong foundation in Suriname.</p>
+      </div>
+      <div class="card">
+        <h4>Virtual Office & Remote Solutions</h4>
+        <p>Business address, mail handling, receptionist services — no physical office needed.</p>
+      </div>
+      <div class="card">
+        <h4>Turn-Key Office Setup</h4>
+        <p>Prime locations, renovation, IT setup — a fully functional workspace ready to go.</p>
+      </div>
+      <div class="card">
+        <h4>Operational Support</h4>
+        <p>Payroll, HR, admin services — we manage the back office so you can grow.</p>
+      </div>
+      <div class="card">
+        <h4>End-to-End Logistics</h4>
+        <p>Procurement, warehousing, transportation — seamless logistics support.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h3>Client Challenges We Solve</h3>
+    <div class="challenges-grid">
+      <div class="card">
+        <h4>Regulatory Complexity</h4>
+        <p>We ensure compliance with full legal, tax, and VAT support, avoiding costly delays.</p>
+      </div>
+      <div class="card">
+        <h4>Remote Operations</h4>
+        <p>Professional presence without a physical office — with call handling and mail services.</p>
+      </div>
+      <div class="card">
+        <h4>Office Setup Headaches</h4>
+        <p>From real estate to IT — we deliver a ready-to-use office environment.</p>
+      </div>
+      <div class="card">
+        <h4>Trial & Error Costs</h4>
+        <p>Leverage our local knowledge to avoid wasted time and unexpected costs.</p>
+      </div>
+      <div class="card">
+        <h4>Supply Chain Bottlenecks</h4>
+        <p>We manage logistics end-to-end for smooth operations and timely delivery.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="articles" class="section">
+    <h3>Articles</h3>
+    <ul>
+      <li>How do I apply for an evisa in Suriname?</li>
+      <li>Naming your company in Suriname</li>
+      <li>What you should know about BTW (VAT) in Suriname</li>
+      <li>Tax in Suriname</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section">
+    <h3>Contact Us</h3>
+    <!-- <p>Office: Keizerstraat 16, Paramaribo - Suriname (SA)</p> -->
+    <!-- <p>Phone: +597 000000000</p> -->
+    <p>Email: <a href="mailto:gail@meyergroup.sr">gail@meyergroup.sr</a></p>
+  </section>
+
+  <footer>
+    <p>Streamline your entry into Suriname with expert local knowledge and support.</p>
+    <p>Local Expertise • Comprehensive Services • Flexibility</p>
+    <p>Privacy Policy</p>
+    <p>&copy; 2025 Meyer Management & Consulting NV</p>
+  </footer>
+</body>
+</html>
